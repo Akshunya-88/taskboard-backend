@@ -1,9 +1,3 @@
-[phases.setup]
-nixPkgs = ["python312"]
-
-[phases.install]
-cmds = ["pip install -r requirements.txt"]
-
 [phases.build]
 cmds = ["DJANGO_SETTINGS_MODULE=taskboard.settings_prod python manage.py collectstatic --noinput"]
 
