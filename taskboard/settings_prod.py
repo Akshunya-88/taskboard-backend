@@ -12,6 +12,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', SECRET_KEY)
 # Allowed hosts
 ALLOWED_HOSTS = [
     '.railway.app',
+    'taskboard-backend-production.up.railway.app',
     'localhost',
     '127.0.0.1',
 ]
