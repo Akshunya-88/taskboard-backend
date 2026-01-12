@@ -2,7 +2,7 @@ Django==4.2.27
 djangorestframework==3.16.1
 djangorestframework-simplejwt==5.4.0
 django-cors-headers==4.9.0
-django-filter==25.2
+django-filter==24.3
 drf-spectacular==0.29.0
 drf-spectacular-sidecar==2026.1.1
 gunicorn==23.0.0
